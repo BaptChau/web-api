@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from .routers import news
-import json
 app = FastAPI()
 app.include_router(news.appRouter)
 
